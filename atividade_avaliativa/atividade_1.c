@@ -6,7 +6,7 @@ int main (){
     scanf("%d", &ano);
 
     if ((ano >= 1886 && ano <=2022) && (ano %4 == 0) && (ano != 1916) && (ano!= 1940) && (ano != 1944)) {
-        printf("Os jogos Olimpicos de verao ocorreram no ano de %d.\n", ano);
+        printf("Os jogos Olimpicos de Verao ocorreram no ano de %d.\n", ano);
     }
     
     else if (ano >= 1930 && (ano - 1930) % 4 == 0 && (ano != 1942) && (ano != 1946)) {
