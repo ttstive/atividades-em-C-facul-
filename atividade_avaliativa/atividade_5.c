@@ -19,7 +19,7 @@ int main(){
         }
 
         else{
-            printf("%d não eh multiplo de %d\n", numero1, numero2);
+            printf("%d nao eh multiplo de %d\n", numero1, numero2);
         }
     }
 
@@ -30,7 +30,7 @@ int main(){
         }
 
         else{
-            printf("%d não eh multiplo de %d\n", numero2, numero1);
+            printf("%d nao eh multiplo de %d\n", numero2, numero1);
         }
     }
     return 0;
