@@ -7,10 +7,10 @@ int main (){
 
     if (number % 2 == 0)
     {
-        printf(" %d eh numero par \n", number);
+        printf(" %d eh par \n", number);
     }
     else {
-        printf(" %d eh numero impar \n ", number);
+        printf(" %d eh impar \n ", number);
     }
     int soma = 0;
     int dividendo = number;
@@ -19,7 +19,7 @@ int main (){
         dividendo = dividendo / 10; 
     }
 
-    printf("a soma dos algarismos de %d eh igual a %d\n", number, soma);
+    printf("A soma dos algarismos de %d eh %d\n", number, soma);
 
 
 
