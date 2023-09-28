@@ -13,7 +13,7 @@ int main (){
         printf("A Copa do Mundo de futebol ocorreu no ano de %d.\n", ano);
     } 
     else{
-        printf(“Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d");
+        printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d", ano);
     }
    
 
